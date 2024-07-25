@@ -45,7 +45,7 @@ TextureImporter:
       213: -4989849783246049853
     second: AllBird1_13
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -109,7 +109,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,7 +122,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,7 +135,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,7 +148,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -161,7 +161,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -174,8 +174,34 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -201,7 +227,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -223,7 +248,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -245,7 +269,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -267,7 +290,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -289,7 +311,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -311,7 +332,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -333,7 +353,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -355,7 +374,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -367,7 +385,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_8
+      name: Red0
       rect:
         serializedVersion: 2
         x: 0
@@ -377,7 +395,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -389,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_9
+      name: Red1
       rect:
         serializedVersion: 2
         x: 16
@@ -399,7 +416,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -411,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_10
+      name: Red2
       rect:
         serializedVersion: 2
         x: 32
@@ -421,7 +437,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -433,7 +448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_11
+      name: Red3
       rect:
         serializedVersion: 2
         x: 48
@@ -443,7 +458,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -455,7 +469,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_12
+      name: Green0
       rect:
         serializedVersion: 2
         x: 0
@@ -465,7 +479,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -477,7 +490,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_13
+      name: Green1
       rect:
         serializedVersion: 2
         x: 16
@@ -487,7 +500,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -499,7 +511,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_14
+      name: Green2
       rect:
         serializedVersion: 2
         x: 32
@@ -509,7 +521,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -521,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_15
+      name: Green3
       rect:
         serializedVersion: 2
         x: 48
@@ -531,7 +542,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -543,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_16
+      name: Brown0
       rect:
         serializedVersion: 2
         x: 0
@@ -553,7 +563,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -565,7 +574,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_17
+      name: Brown1
       rect:
         serializedVersion: 2
         x: 16
@@ -575,7 +584,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -587,7 +595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_18
+      name: Brown2
       rect:
         serializedVersion: 2
         x: 32
@@ -597,7 +605,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -609,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_19
+      name: Brown3
       rect:
         serializedVersion: 2
         x: 48
@@ -619,7 +626,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -631,7 +637,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_20
+      name: White0
       rect:
         serializedVersion: 2
         x: 0
@@ -641,7 +647,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -653,7 +658,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_21
+      name: White1
       rect:
         serializedVersion: 2
         x: 16
@@ -663,7 +668,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -675,7 +679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_22
+      name: White2
       rect:
         serializedVersion: 2
         x: 32
@@ -685,7 +689,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -697,7 +700,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_23
+      name: White3
       rect:
         serializedVersion: 2
         x: 48
@@ -707,7 +710,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -719,7 +721,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_24
+      name: Purple0
       rect:
         serializedVersion: 2
         x: 0
@@ -729,7 +731,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -741,7 +742,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_25
+      name: Purple1
       rect:
         serializedVersion: 2
         x: 16
@@ -751,7 +752,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -763,7 +763,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_26
+      name: Purple2
       rect:
         serializedVersion: 2
         x: 32
@@ -773,7 +773,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -785,7 +784,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AllBird1_27
+      name: Purple3
       rect:
         serializedVersion: 2
         x: 48
@@ -795,7 +794,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -807,7 +805,6 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
-    customData: 
     physicsShape: []
     bones: []
     spriteID: d959f615f35e9d24c80c4405094135c5
@@ -817,37 +814,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    spriteCustomMetadata:
-      entries: []
     nameFileIdTable:
-      AllBird1_10: -7341173578510498608
-      AllBird1_11: 1716879131424119955
-      AllBird1_12: -4100747111529431224
-      AllBird1_13: -4989849783246049853
-      AllBird1_14: -1921745314
-      AllBird1_15: 553279854
-      AllBird1_16: -1957482702
-      AllBird1_17: 62118389
-      AllBird1_18: 1109771176
-      AllBird1_19: -1170970519
-      AllBird1_20: -388123287
-      AllBird1_21: 1563165397
-      AllBird1_22: 1658113629
-      AllBird1_23: 608591128
-      AllBird1_24: -1273941628
-      AllBird1_25: 1105843052
-      AllBird1_26: 1006345838
-      AllBird1_27: -627017357
-      AllBird1_8: -1222994656812247986
-      AllBird1_9: -7467458542149876733
       Blue0: 2907388286743782911
       Blue1: 6585124905913533040
       Blue2: -2369845274116926125
       Blue3: 8497097008640872164
+      Brown0: -1957482702
+      Brown1: 62118389
+      Brown2: 1109771176
+      Brown3: -1170970519
+      Green0: -4100747111529431224
+      Green1: -4989849783246049853
+      Green2: -1921745314
+      Green3: 553279854
       Orange0: 5539577999891845573
       Orange1: -3999765963290072265
       Orange2: 811993791851207881
       Orange3: 4560692949185054813
+      Purple0: -1273941628
+      Purple1: 1105843052
+      Purple2: 1006345838
+      Purple3: -627017357
+      Red0: -1222994656812247986
+      Red1: -7467458542149876733
+      Red2: -7341173578510498608
+      Red3: 1716879131424119955
+      White0: -388123287
+      White1: 1563165397
+      White2: 1658113629
+      White3: 608591128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,9 +8,12 @@ public class Bird : MonoBehaviour
     float vel = 0;
 
     InputSystem_Actions action;
+    Animator anim;
 
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
+
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;
 
@@ -20,7 +23,9 @@ public class Bird : MonoBehaviour
 
     void Update()
     {
-        if (action.Player.Attack.IsPressed())
+        if (!GameManager.Instance.Began) return;
+
+        if (action.Player.Attack.IsPressed() || Input.GetMouseButton(0))
         {
             if (vel < 0)
             {
@@ -33,17 +38,46 @@ public class Bird : MonoBehaviour
         }
         else
         {
-            vel -= gravity * Time.deltaTime;
+            if (vel > 2.75f)
+            {
+                vel = 2.75f;
+            }
+            else
+            {
+                vel -= gravity * Time.deltaTime;
+            }
         }
         vel = Mathf.Clamp(vel, -6.5f, 5.5f);
         transform.position += Vector3.up * vel * Time.deltaTime;
         transform.rotation = Quaternion.Euler(0, 0, vel * 5);
+    }
 
-        var col = Physics2D.OverlapCircle(transform.position, 0.14f);
-        if (col != null && col.gameObject != gameObject)
+    private void LateUpdate()
+    {
+        anim.SetFloat("level", GameManager.Instance.Level);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("scorer"))
+        {
+
+        }
+        else
         {
             action.Disable();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.CompareTag("scorer"))
+        {
+            GameManager.Instance.AddScore(1);
+        }
+        else
+        {
+            
         }
     }
 }

@@ -15,6 +15,8 @@ public class WorldManager : MonoBehaviour
 
     void Update()
     {
+        if (!GameManager.Instance.Began) return;
+
         var toremove = new List<int>();
         for (int i = 0; i < pipes.Count; i++)
         {
